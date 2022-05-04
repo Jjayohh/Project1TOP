@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background: rgb(204, 204, 204);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(53, 53, 63);
+}
+
+.logoheader {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    font-style: italic;
+    color: white;
+    margin-left: 24px;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    border: 24px;
+    gap: 80px;
+}
+
+.links {
+    text-decoration: none;
+    text-align: left;
+    margin-right: 80px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: wheat;
+}
+
+li {
+    list-style-type: none;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(45, 45, 114);
+    padding: 8px 12px;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    text-align: center;
+    padding: 36px;
+}
+
+.photo {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.box {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.topic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topic {
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 28px;
+    padding: 10px;
+    background-color: rgb(53, 53, 63);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    border: 48px;
+    width: 300;
+    background-color: grey;
+}
