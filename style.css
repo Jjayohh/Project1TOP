@@ -6,19 +6,18 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
     background-image: url('././photos/catlookingaway.jpg');
     background-size: cover;
-    height: 150px;
+    height: 100px;
     float: bottom;
 }
 
 .logoheader {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 32px;
     color: white;
-    margin-left: 70px;
+    margin-left: 20px;
     text-align: justify;
     padding: 2px;
     border: 24px;
@@ -36,7 +35,7 @@ body {
 .links {
     text-decoration: none;
     text-align: left;
-    margin-right: 70px;
+    margin-right: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -94,15 +93,16 @@ li {
 }
 
 
-
 .container {
     display: flex;
     position: relative;
     justify-content: space-between;
     gap: 30px;
-    padding: 36px;
+    padding: 20px;
     margin-left: 25%;
     margin-right: 25%;
+    max-width: auto;
+    max-height: auto;
 }
 
 .maintopic {
@@ -125,8 +125,6 @@ li {
     position: relative;
     text-align: center;
     margin-top: 56px;
-    width: 250 px;
-    padding: 12px;
     font-size: 18px;
     font-weight: 400;
     font-style: italic;
@@ -136,10 +134,10 @@ li {
 .photo img {
     float: left;
     object-fit: cover;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 350px;
+    max-height: 350px;
     border-radius: 5%;
-    display: block;
+    display: flex;
     margin: 0 auto;
     border: 4px solid;
     border-color: white;
